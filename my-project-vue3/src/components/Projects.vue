@@ -85,6 +85,14 @@
       tags: ['XGB', 'Tensorflow', 'Transformers'],
   
       codeLink: 'https://github.com/qikunye/-Multi-Asset-ML-Trading-Bot-XGBoost-LSTM-'
+    },
+    {
+      title: 'Gold Price Prediction System ',
+      description: 'Forecasts the next 5 days of gold prices using a 2-layered LSTM model in Tensorflow',
+      image: 'gold_graph.png',
+      tags: ['yfinance', 'Tensorflow', 'Pandas'],
+  
+      codeLink: 'https://github.com/qikunye/Gold-Price-Prediction-System'
     }
   ]);
   </script>
