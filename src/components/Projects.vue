@@ -73,7 +73,7 @@
     {
       title: 'Alpaca Live SMA Crossover Trading Bot',
       description: 'Using SMA(20/50) + Bollinger(1σ) with simple risk sizing.',
-      image: 'src/assets/images/trade_graph1.png',
+      image: 'trade_graph1.png',
       tags: ['API', 'Matplotlib', 'Pandas'],
   
       codeLink: 'https://github.com/qikunye/Alpaca-Live-TradingBot'
@@ -81,7 +81,7 @@
     {
       title: 'ML Trading Bot ',
       description: 'ML ensemble backtests with XGBoost + LSTM',
-      image: 'src/assets/images/trade_graph2.png',
+      image: 'trade_graph2.png',
       tags: ['XGB', 'Tensorflow', 'Transformers'],
   
       codeLink: 'https://github.com/qikunye/-Multi-Asset-ML-Trading-Bot-XGBoost-LSTM-'
@@ -89,7 +89,7 @@
     {
       title: 'Gold Price Prediction System ',
       description: 'Forecasts the next 5 days of gold prices using a 2-layered LSTM model in Tensorflow',
-      image: 'src/assets/images/gold_graph.png',
+      image: 'gold_graph.png',
       tags: ['yfinance', 'Tensorflow', 'Pandas'],
   
       codeLink: 'https://github.com/qikunye/Gold-Price-Prediction-System'
@@ -97,7 +97,7 @@
     {
       title: 'Retrieval-Augmented Generation (RAG) chatbot ',
       description: 'RAG Study Assistant (PDF)',
-      image: 'src/assets/images/chatbot.png',
+      image: 'chatbot.png',
       tags: ['langchain', 'OpenAI', 'Sentence-Transformers'],
   
       codeLink: 'https://github.com/qikunye/Education-Chatbot'
