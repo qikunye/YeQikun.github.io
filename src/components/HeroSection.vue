@@ -29,7 +29,7 @@
         <figure class="card relative m-[30px] w-[300px] h-[300px] md:w-[420px] md:h-[420px]">
           <div
             class="relative w-[90%] h-[90%] mx-auto my-auto flex items-center justify-center z-[2] translate-y-[20px] translate-x-[5px]">
-            <img src="@/assets/images/selfie2.jpg" alt="Photo of Qikun"
+            <img src="/images/selfie2.jpg" alt="Photo of Qikun"
               class="w-full h-full object-cover rounded-[inherit]" loading="lazy" />
           </div>
         </figure>
