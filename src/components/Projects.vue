@@ -101,6 +101,14 @@
       tags: ['langchain', 'OpenAI', 'Sentence-Transformers'],
   
       codeLink: 'https://github.com/qikunye/Education-Chatbot'
+    },
+    {
+      title: 'Sudoku Solver ',
+      description: 'Sudoku Solver using Tensorflow',
+      image: 'Sudoku.png',
+      tags: ['Supervised Learning', 'CNNs'],
+  
+      codeLink: 'https://github.com/qikunye/Sudoku-Solver'
     }
   ]);
   </script>
