@@ -22,7 +22,7 @@
   import { ref, onMounted } from 'vue';
   
   const numbers = ref([
-    { id: 1, number: 6, title: 'Created projects' },
+    { id: 1, number: 7, title: 'Created projects' },
     { id: 2, number: 4, title: 'Hackathons' },
     { id: 3, number: 2, title: 'Working Experience' },
   ]);

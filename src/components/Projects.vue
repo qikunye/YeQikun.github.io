@@ -109,6 +109,14 @@
       tags: ['Supervised Learning', 'CNNs'],
   
       codeLink: 'https://github.com/qikunye/Sudoku-Solver'
+    },
+    {
+      title: 'Trustworthy Location Reviews ',
+      description: 'ML system to evaluate the quality and relevancy of reviews',
+      image: 'Review_filter.png',
+      tags: ['HF Transformer', 'Pseudo labelling','Regex'],
+  
+      codeLink: 'https://github.com/jarenlimhaan/Tiktok-techjam'
     }
   ]);
   </script>
