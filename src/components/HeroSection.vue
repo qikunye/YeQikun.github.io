@@ -25,17 +25,47 @@
         </div>
       </header>
 
-      <aside class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap">
-        <figure class="card relative m-[30px] w-[300px] h-[300px] md:w-[420px] md:h-[420px]">
-          <div
-            class="relative w-[90%] h-[90%] mx-auto my-auto flex items-center justify-center z-[2] translate-y-[20px] translate-x-[5px]">
-            <img src="/images/selfie2.jpg" alt="Photo of Qikun"
-              class="w-full h-full object-cover rounded-[inherit]" loading="lazy" />
-          </div>
-        </figure>
+      <aside class="flex justify-center lg:justify-end mt-20 lg:mt-0 items-center">
+  <figure class="relative group" aria-label="Portrait of Qikun Ye">
+    <!-- Gradient “ring” wrapper -->
+    <div
+      class="relative w-[300px] md:w-[420px] aspect-square rounded-3xl p-[2px]
+             bg-[conic-gradient(at_50%_50%,_#00c6cc_0deg,_#785ae4_140deg,_#00c6cc_320deg)]
+             opacity-90"
+    >
+      <!-- Clean frame -->
+      <div
+        class="h-full w-full rounded-[inherit] overflow-hidden
+               ring-1 ring-black/5 dark:ring-white/10
+               shadow-xl shadow-black/10 dark:shadow-black/40
+               bg-white dark:bg-zinc-900"
+      >
+        <!-- Actual image -->
+        <img
+          src="/images/selfie2.jpg"
+          alt="Photo of Qikun"
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover rounded-[inherit]
+                 [transform:translateZ(0)]
+                 transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+          sizes="(min-width: 1024px) 420px, 300px"
+        />
+      </div>
+    </div>
+
+    <!-- Subtle ambient glow -->
+    <div
+      aria-hidden="true"
+      class="absolute -inset-6 -z-10 rounded-[2.25rem]
+             bg-gradient-to-tr from-[#00c6cc]/25 via-transparent to-[#785ae4]/25
+             blur-2xl opacity-50 group-hover:opacity-70 transition-opacity"
+    />
+  </figure>
+</aside>
 
 
-      </aside>
+      
     </main>
     <!-- SVG filter definition -->
     <svg class="hidden">
