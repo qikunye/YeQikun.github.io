@@ -37,7 +37,7 @@ const Education= ref([
         degree: "BCME"
     },
     {   duration:'08/2024-06/2027',
-        School:"Singapore Management Univserity",
+        School:"Singapore Management University",
         degree: "Bachelor of Science (Information Systems)"
     }
 ])
